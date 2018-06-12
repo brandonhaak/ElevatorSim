@@ -8,6 +8,14 @@ protected:
 	int FloorNum;
 	string FloorDesc;
 
-	//Constructor
+public:
+	string FloorName;
+
+	//Constructors
 	Floor();
+	Floor(int fNum, string fName);
+
+	//Functions
+	void displayFloorInfo();
+
 };
